@@ -65,7 +65,7 @@ button:hover {
     gap: 15px;
     border: none;                              /* remove a borda vermelha */
     min-height: 300px;                         /* garante área visível */
-    background-image: url('onda-tubo-lisboa.jpg');
+    background-image: url('onda-tubo-lisboa.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
