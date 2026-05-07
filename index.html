@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Feriados Nacionais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-busca">
+            <h1>🌴Feriados Nacionais🌴</h1>
+            <div>
+                <input type="number" id="anoInput" placeholder="Ex: 2026" min="1900" max="2199">
+                <button onClick="buscarFeriados()">Consultar</button>
+            </div>
+        </div>
+        <div id="results" class="results-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfbd4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.box-busca {
+    background-color: rgb(163, 236, 190);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.holiday-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-left: 5px solid #00a724;
+}
+
+.holiday-card h3 {
+    font-size: 1.1rem;
+    margin: 0 0 10px 0;
+}
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    border: none;                              /* remove a borda vermelha */
+    min-height: 300px;                         /* garante área visível */
+    background-image: url('onda-tubo-lisboa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+}
+.holiday-card {
+    background: rgba(255, 255, 255, 0.85);  /* branco com 85% de opacidade */
+    /* restante das propriedades que já tem... */
+}
